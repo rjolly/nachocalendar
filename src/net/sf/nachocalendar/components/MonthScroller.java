@@ -167,12 +167,6 @@ label0:
 			return;
 		}
 		ArrayList list = (ArrayList)yearChangeListenerList.clone();
-		monthscroller;
-		JVM INSTR monitorexit ;
-		  goto _L1
-		exception;
-		throw exception;
-_L1:
 		for (int i = 0; i < list.size(); i++)
 			((YearChangeListener)list.get(i)).yearIncreased(event);
 
@@ -189,12 +183,6 @@ label0:
 			return;
 		}
 		ArrayList list = (ArrayList)yearChangeListenerList.clone();
-		monthscroller;
-		JVM INSTR monitorexit ;
-		  goto _L1
-		exception;
-		throw exception;
-_L1:
 		for (int i = 0; i < list.size(); i++)
 			((YearChangeListener)list.get(i)).yearDecreased(event);
 
@@ -222,12 +210,6 @@ label0:
 			return;
 		}
 		ArrayList list = (ArrayList)changeListenerList.clone();
-		monthscroller;
-		JVM INSTR monitorexit ;
-		  goto _L1
-		exception;
-		throw exception;
-_L1:
 		for (int i = 0; i < list.size(); i++)
 			((ChangeListener)list.get(i)).stateChanged(event);
 

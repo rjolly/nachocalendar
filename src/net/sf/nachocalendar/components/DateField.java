@@ -285,12 +285,6 @@ label0:
 			return;
 		}
 		ArrayList list = (ArrayList)changeListenerList.clone();
-		datefield;
-		JVM INSTR monitorexit ;
-		  goto _L1
-		exception;
-		throw exception;
-_L1:
 		for (int i = 0; i < list.size(); i++)
 			((ChangeListener)list.get(i)).stateChanged(event);
 

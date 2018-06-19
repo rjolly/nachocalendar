@@ -109,10 +109,11 @@ public class DirectSetter
 	}
 
 	private Class loadClass(String name) {
-		return Class.forName(name);
-		ClassNotFoundException e;
-		e;
-		e.printStackTrace();
+		try {
+			return Class.forName(name);
+		} catch (final ClassNotFoundException e) {
+			e.printStackTrace();
+		}
 		return null;
 	}
 
